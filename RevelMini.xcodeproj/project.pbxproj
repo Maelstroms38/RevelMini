@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B15D5AE623FD8BB100295F8B /* VehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15D5AE523FD8BB100295F8B /* VehicleViewModel.swift */; };
+		B15D5AE823FD8EE500295F8B /* VehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15D5AE723FD8EE500295F8B /* VehicleView.swift */; };
+		B199607224143233006E4627 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B199607124143233006E4627 /* Reservation.swift */; };
+		B1996074241435CB006E4627 /* ReservationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1996073241435CB006E4627 /* ReservationService.swift */; };
+		B19D543423F4C75C00D97744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D543323F4C75C00D97744 /* AppDelegate.swift */; };
+		B19D543623F4C75C00D97744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D543523F4C75C00D97744 /* ViewController.swift */; };
+		B19D543923F4C75C00D97744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19D543723F4C75C00D97744 /* Main.storyboard */; };
+		B19D543B23F4C75E00D97744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19D543A23F4C75E00D97744 /* Assets.xcassets */; };
+		B19D543E23F4C75E00D97744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19D543C23F4C75E00D97744 /* LaunchScreen.storyboard */; };
+		B19D544623F4C79100D97744 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D544523F4C79100D97744 /* MapView.swift */; };
+		B19D544C23F4C82200D97744 /* upstreamVehicles.json in Resources */ = {isa = PBXBuildFile; fileRef = B19D544B23F4C82200D97744 /* upstreamVehicles.json */; };
+		B19D545023F4C86800D97744 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B19D544F23F4C86800D97744 /* Podfile */; };
+		B19D545223F4CAE400D97744 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D545123F4CAE400D97744 /* Vehicle.swift */; };
+		B3CD4449D987DA900DEC2CBB /* Pods_RevelMini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE46AE0AB542FD17245FEF3 /* Pods_RevelMini.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		129B104B96171312B691DC9C /* Pods-RevelMini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevelMini.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RevelMini/Pods-RevelMini.debug.xcconfig"; sourceTree = "<group>"; };
+		5A5691F690EE9A9EE1F2DAF7 /* Pods-RevelMini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevelMini.release.xcconfig"; path = "Pods/Target Support Files/Pods-RevelMini/Pods-RevelMini.release.xcconfig"; sourceTree = "<group>"; };
+		8CE46AE0AB542FD17245FEF3 /* Pods_RevelMini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RevelMini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15D5AE523FD8BB100295F8B /* VehicleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleViewModel.swift; sourceTree = "<group>"; };
+		B15D5AE723FD8EE500295F8B /* VehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleView.swift; sourceTree = "<group>"; };
+		B199607124143233006E4627 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		B1996073241435CB006E4627 /* ReservationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationService.swift; sourceTree = "<group>"; };
+		B19D543023F4C75C00D97744 /* RevelMini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevelMini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19D543323F4C75C00D97744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B19D543523F4C75C00D97744 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B19D543823F4C75C00D97744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B19D543A23F4C75E00D97744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B19D543D23F4C75E00D97744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B19D543F23F4C75E00D97744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19D544523F4C79100D97744 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B19D544B23F4C82200D97744 /* upstreamVehicles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = upstreamVehicles.json; sourceTree = "<group>"; };
+		B19D544F23F4C86800D97744 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B19D545123F4CAE400D97744 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B19D542D23F4C75C00D97744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CD4449D987DA900DEC2CBB /* Pods_RevelMini.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA2916CA1208C262EC90A74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CE46AE0AB542FD17245FEF3 /* Pods_RevelMini.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D88CA1BE92E7E01B7FA146E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				129B104B96171312B691DC9C /* Pods-RevelMini.debug.xcconfig */,
+				5A5691F690EE9A9EE1F2DAF7 /* Pods-RevelMini.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B199606E24142BA4006E4627 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B19D545123F4CAE400D97744 /* Vehicle.swift */,
+				B199607124143233006E4627 /* Reservation.swift */,
+				B1996073241435CB006E4627 /* ReservationService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B199606F24142BAB006E4627 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B15D5AE523FD8BB100295F8B /* VehicleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B199607024142BB9006E4627 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B19D543523F4C75C00D97744 /* ViewController.swift */,
+				B15D5AE723FD8EE500295F8B /* VehicleView.swift */,
+				B19D544523F4C79100D97744 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B19D542723F4C75C00D97744 = {
+			isa = PBXGroup;
+			children = (
+				B19D544F23F4C86800D97744 /* Podfile */,
+				B19D543223F4C75C00D97744 /* RevelMini */,
+				B19D543123F4C75C00D97744 /* Products */,
+				7D88CA1BE92E7E01B7FA146E /* Pods */,
+				3FA2916CA1208C262EC90A74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B19D543123F4C75C00D97744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B19D543023F4C75C00D97744 /* RevelMini.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B19D543223F4C75C00D97744 /* RevelMini */ = {
+			isa = PBXGroup;
+			children = (
+				B19D543323F4C75C00D97744 /* AppDelegate.swift */,
+				B199606E24142BA4006E4627 /* Model */,
+				B199607024142BB9006E4627 /* View */,
+				B199606F24142BAB006E4627 /* ViewModel */,
+				B19D543723F4C75C00D97744 /* Main.storyboard */,
+				B19D543A23F4C75E00D97744 /* Assets.xcassets */,
+				B19D543C23F4C75E00D97744 /* LaunchScreen.storyboard */,
+				B19D543F23F4C75E00D97744 /* Info.plist */,
+				B19D544B23F4C82200D97744 /* upstreamVehicles.json */,
+			);
+			path = RevelMini;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B19D542F23F4C75C00D97744 /* RevelMini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19D544223F4C75E00D97744 /* Build configuration list for PBXNativeTarget "RevelMini" */;
+			buildPhases = (
+				057E90EB41136692308F6EFE /* [CP] Check Pods Manifest.lock */,
+				B19D542C23F4C75C00D97744 /* Sources */,
+				B19D542D23F4C75C00D97744 /* Frameworks */,
+				B19D542E23F4C75C00D97744 /* Resources */,
+				8720872D3076742B85ADFD95 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevelMini;
+			productName = RevelMini;
+			productReference = B19D543023F4C75C00D97744 /* RevelMini.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B19D542823F4C75C00D97744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Michael Stromer";
+				TargetAttributes = {
+					B19D542F23F4C75C00D97744 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B19D542B23F4C75C00D97744 /* Build configuration list for PBXProject "RevelMini" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B19D542723F4C75C00D97744;
+			productRefGroup = B19D543123F4C75C00D97744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B19D542F23F4C75C00D97744 /* RevelMini */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B19D542E23F4C75C00D97744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19D545023F4C86800D97744 /* Podfile in Resources */,
+				B19D543E23F4C75E00D97744 /* LaunchScreen.storyboard in Resources */,
+				B19D544C23F4C82200D97744 /* upstreamVehicles.json in Resources */,
+				B19D543B23F4C75E00D97744 /* Assets.xcassets in Resources */,
+				B19D543923F4C75C00D97744 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		057E90EB41136692308F6EFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RevelMini-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8720872D3076742B85ADFD95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RevelMini/Pods-RevelMini-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxMobileEvents.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevelMini/Pods-RevelMini-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B19D542C23F4C75C00D97744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15D5AE623FD8BB100295F8B /* VehicleViewModel.swift in Sources */,
+				B15D5AE823FD8EE500295F8B /* VehicleView.swift in Sources */,
+				B19D545223F4CAE400D97744 /* Vehicle.swift in Sources */,
+				B19D543623F4C75C00D97744 /* ViewController.swift in Sources */,
+				B19D544623F4C79100D97744 /* MapView.swift in Sources */,
+				B199607224143233006E4627 /* Reservation.swift in Sources */,
+				B1996074241435CB006E4627 /* ReservationService.swift in Sources */,
+				B19D543423F4C75C00D97744 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B19D543723F4C75C00D97744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19D543823F4C75C00D97744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B19D543C23F4C75E00D97744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19D543D23F4C75E00D97744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B19D544023F4C75E00D97744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B19D544123F4C75E00D97744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B19D544323F4C75E00D97744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 129B104B96171312B691DC9C /* Pods-RevelMini.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RevelMini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mvp.RevelMini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B19D544423F4C75E00D97744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5691F690EE9A9EE1F2DAF7 /* Pods-RevelMini.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RevelMini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mvp.RevelMini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B19D542B23F4C75C00D97744 /* Build configuration list for PBXProject "RevelMini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19D544023F4C75E00D97744 /* Debug */,
+				B19D544123F4C75E00D97744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19D544223F4C75E00D97744 /* Build configuration list for PBXNativeTarget "RevelMini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19D544323F4C75E00D97744 /* Debug */,
+				B19D544423F4C75E00D97744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B19D542823F4C75C00D97744 /* Project object */;
+}
